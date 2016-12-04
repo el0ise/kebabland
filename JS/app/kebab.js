@@ -1,10 +1,11 @@
 define(function(){
+    var direction;
 
 	function Kebab(x,y) {
 		this.dx = dx;
 		this.dy = dy;
 		this.x = x;
-		this.y =y;
+		this.y = y;
 
 	}
 

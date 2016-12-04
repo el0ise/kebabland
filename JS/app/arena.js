@@ -1,18 +1,20 @@
-define(["app/ingredient", "app/gameMath"], function(Ingredient, gameMath){
+define(["app/ingredient", "app/game"], function(Ingredient, game){
 
 
     function Arena(w, h) {
         this.width = w;
         this.height = h;
+        this.active_ingredients = [];
 
         Arena.prototype = {
-            isIngredientHit: function(snakeTrajectory) {
+            isIngredientHit: function() {
                 // TODO: add ingredient to the snake array
             },
 
 
             draw: function(canvasContext) {
-                // TODO: create initial snake
+                // TODO: draw an active ingredient (if one doesn't exist??)
+
 
             }
 
