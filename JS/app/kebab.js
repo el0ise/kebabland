@@ -1,6 +1,6 @@
 define(function(){
 
-	function Skewer(x,y) {
+	function Kebab(x,y) {
 		this.dx = dx;
 		this.dy = dy;
 		this.x = x;
@@ -8,7 +8,7 @@ define(function(){
 
 	}
 
-	Skewer.prototype = {
+	Kebab.prototype = {
 		setPos: function(x,y) {
 			this.x = x;
 			this.y = y;
