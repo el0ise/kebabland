@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91109f2a-15d1-409a-9d26-19db97fa676d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/app/arena.js" afterPath="$PROJECT_DIR$/JS/app/arena.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/app/kebab.js" afterPath="$PROJECT_DIR$/JS/app/kebab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/game.js" afterPath="$PROJECT_DIR$/JS/game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/ingredients.js" afterPath="$PROJECT_DIR$/js/app/ingredients.js" />
     </list>
     <ignored path="kebabland.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -45,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ingredients.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ingredients.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/app/ingredients.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -65,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-193">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="855">
+              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -92,15 +90,15 @@
         <option value="$PROJECT_DIR$/js/app/skewer.js" />
         <option value="$PROJECT_DIR$/JS/app/skewer.js" />
         <option value="$PROJECT_DIR$/JS/app/arena.js" />
-        <option value="$PROJECT_DIR$/JS/app/ingredients.js" />
         <option value="$PROJECT_DIR$/JS/app/kebab.js" />
         <option value="$PROJECT_DIR$/JS/game.js" />
+        <option value="$PROJECT_DIR$/JS/app/ingredients.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="662" />
+    <option name="width" value="650" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -474,11 +472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480873886857</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a bunch to TODOs">
+      <created>1480881149683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1480881149683</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="662" height="777" extended-state="0" />
+    <frame x="0" y="23" width="650" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -533,7 +538,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <MESSAGE value="Merge branch 'master' of https://github.com/el0ise/kebabland&#10;&#10;# Conflicts:&#10;#&#9;index.html&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/el0ise/kebabland&#10;&#10;# Conflicts:&#10;#&#9;index.html&#10;" />
+    <MESSAGE value="Added a bunch to TODOs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a bunch to TODOs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -643,14 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/app/kebab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -659,10 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/app/ingredients.js">
+    <entry file="file://$PROJECT_DIR$/JS/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="855">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -675,10 +673,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/game.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/app/ingredients.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding />
         </state>
       </provider>
